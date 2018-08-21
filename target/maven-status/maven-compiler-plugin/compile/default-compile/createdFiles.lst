@@ -1,0 +1,7 @@
+www\qige\service\Excel2WordServiceImpl.class
+www\qige\service\OpenFileAction$WordRunable.class
+www\qige\service\OpenFileAction.class
+www\qige\service\FreeMarker2WordFileUtils.class
+www\qige\service\ReadExcelUtils.class
+www\qige\service\WorderToNewWordUtils.class
+www\qige\entity\PatEntity.class
