@@ -123,14 +123,14 @@ public class FreeMarker2WordFileUtils {
             templateName = "中枢神经脱髓鞘两项抗体.ftl";
         }else if(patEntity.getProgram().contains("中枢神经脱髓鞘三项抗体")){
             templateName = "中枢神经脱髓鞘三项抗体.ftl";
-        }else if(patEntity.getProgram().contains("自身免疫性脑炎七项抗体")){
-            templateName = "自身免疫性脑炎七项抗体.ftl";
-        }else if(patEntity.getProgram().contains("自身免疫性脑炎九项抗体")){
-            templateName = "自身免疫性脑炎九项抗体.ftl";
-        }else if(patEntity.getProgram().contains("自身免疫性脑炎八项抗体")){
-            templateName = "自身免疫性脑炎八项抗体.ftl";
-        }else if(patEntity.getProgram().contains("自身免疫性脑炎六项抗体")){
-            templateName = "自身免疫性脑炎六项抗体.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱7项抗体")){
+            templateName = "抗神经细胞抗体谱7项抗体.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱9项抗体")){
+            templateName = "抗神经细胞抗体谱9项抗体.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱8项抗体")){
+            templateName = "抗神经细胞抗体谱8项抗体.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱6项抗体")){
+            templateName = "抗神经细胞抗体谱6项抗体.ftl";
         }else if(patEntity.getProgram().contains("抗GFAP抗体")){
             templateName = "抗GFAP抗体.ftl";
         }else if(patEntity.getProgram().contains("抗NF155抗体")){
