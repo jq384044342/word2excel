@@ -115,21 +115,29 @@ public class FreeMarker2WordFileUtils {
             templateName = "抗MOG抗体.ftl";
         }else if(patEntity.getProgram().contains("抗NMDAR抗体")){
             templateName = "抗NMDAR抗体.ftl";
-        }else if(patEntity.getProgram().contains("神经节苷脂三项抗体")){
+        }else if(patEntity.getProgram().contains("神经节苷脂三项抗体")
+                ||patEntity.getProgram().contains("神经节苷脂3项抗体")){
             templateName = "神经节苷脂三项抗体.ftl";
-        }else if(patEntity.getProgram().contains("神经节苷脂七项抗体")){
+        }else if(patEntity.getProgram().contains("神经节苷脂七项抗体")
+                ||patEntity.getProgram().contains("神经节苷脂7项抗体")){
             templateName = "神经节苷脂七项抗体.ftl";
-        }else if(patEntity.getProgram().contains("中枢神经脱髓鞘两项抗体")){
+        }else if(patEntity.getProgram().contains("中枢神经脱髓鞘两项抗体")
+                ||patEntity.getProgram().contains("中枢神经脱髓鞘2项抗体")){
             templateName = "中枢神经脱髓鞘两项抗体.ftl";
-        }else if(patEntity.getProgram().contains("中枢神经脱髓鞘三项抗体")){
+        }else if(patEntity.getProgram().contains("中枢神经脱髓鞘三项抗体")
+                ||patEntity.getProgram().contains("中枢神经脱髓鞘3项抗体")){
             templateName = "中枢神经脱髓鞘三项抗体.ftl";
-        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱7项抗体")){
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱七项抗体")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱7项抗体")){
             templateName = "抗神经细胞抗体谱7项抗体.ftl";
-        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱9项抗体")){
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱九项抗体")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱9项抗体")){
             templateName = "抗神经细胞抗体谱9项抗体.ftl";
-        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱8项抗体")){
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱八项抗体")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱9项抗体")){
             templateName = "抗神经细胞抗体谱8项抗体.ftl";
-        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱6项抗体")){
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱六项抗体")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱6项抗体")){
             templateName = "抗神经细胞抗体谱6项抗体.ftl";
         }else if(patEntity.getProgram().contains("抗GFAP抗体")){
             templateName = "抗GFAP抗体.ftl";
@@ -137,7 +145,8 @@ public class FreeMarker2WordFileUtils {
             templateName = "抗NF155抗体.ftl";
         }else if(patEntity.getProgram().contains("抗NF186抗体")){
             templateName = "抗NF186抗体.ftl";
-        }else if(patEntity.getProgram().contains("郎飞氏结相关2项抗体")){
+        }else if(patEntity.getProgram().contains("郎飞氏结相关2项抗体")
+                ||patEntity.getProgram().contains("郎飞氏结相关二项抗体")||patEntity.getProgram().contains("郎飞氏结相关两项抗体")){
             templateName = "郎飞氏结相关2项抗体.ftl";
         }else {
             return;
