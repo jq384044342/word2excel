@@ -148,6 +148,9 @@ public class FreeMarker2WordFileUtils {
         }else if(patEntity.getProgram().contains("郎飞氏结相关2项抗体")
                 ||patEntity.getProgram().contains("郎飞氏结相关二项抗体")||patEntity.getProgram().contains("郎飞氏结相关两项抗体")){
             templateName = "郎飞氏结相关2项抗体.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱12项")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱十二项")){
+            templateName = "抗神经细胞抗体谱12项.ftl";
         }else {
             return;
         }
