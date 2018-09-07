@@ -151,6 +151,9 @@ public class FreeMarker2WordFileUtils {
         }else if(patEntity.getProgram().contains("抗神经细胞抗体谱12项")
                 ||patEntity.getProgram().contains("抗神经细胞抗体谱十二项")){
             templateName = "抗神经细胞抗体谱12项.ftl";
+        }else if(patEntity.getProgram().contains("抗神经细胞抗体谱10项")
+                ||patEntity.getProgram().contains("抗神经细胞抗体谱十项")){
+            templateName = "抗神经细胞抗体谱10项抗体.ftl";
         }else {
             return;
         }
